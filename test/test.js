@@ -42,6 +42,6 @@ describe('miaow-jpg-mini', function () {
   });
 
   it('压缩', function () {
-    assert(log.modules['baz.jpg'].hash, 'e25bd90e65f96f8f6b49cd6ffa6fd160');
+    assert.equal(log.modules['baz.jpg'].hash, 'e25bd90e65f96f8f6b49cd6ffa6fd160');
   });
 });
