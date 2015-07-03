@@ -51,7 +51,8 @@ describe('miaow-jpg-mini', function () {
   });
 
   it('压缩', function () {
-    assert.equal(log.modules['baz.jpg'].hash, 'f1dcf9bb914a76177bc42387a0e9ddeb');
+    var stat = fs.statSync(path.join(output, 'baz.jpg'));
+    assert.equal(stat.size, 4706);
   });
 
   it('缓存', function (done) {
