@@ -17,7 +17,7 @@ npm install miaow-jpg-mini --save-dev
 module: {
   tasks: [
     {
-      test: /\.js$/,
+      test: /\.jp[e]g$/,
       plugins: ['miaow-jpg-mini']
     }
   ]
