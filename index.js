@@ -73,4 +73,4 @@ function minify(option, cb) {
   cp.stdin.end(this.contents);
 }
 
-module.exports = minify;
+module.exports = mutil.plugin(pkg.name, pkg.version, minify);
