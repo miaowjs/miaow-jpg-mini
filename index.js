@@ -1,6 +1,6 @@
 // 参考 https://github.com/imagemin/imagemin-jpegtran/blob/master/index.js
 var isJpg = require('is-jpg');
-var jpegtran = require('jpegtran-bin');
+var jpegtran = require('jpegtran-bin-gfw');
 var mutil = require('miaow-util');
 var spawn = require('child_process').spawn;
 

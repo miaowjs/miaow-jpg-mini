@@ -1,7 +1,7 @@
 {
   "name": "miaow-jpg-mini",
   "description": "Miaow的JPG压缩工具",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "repository": "miaowjs/miaow-jpg-mini",
   "author": {
     "name": "anhulife",
@@ -17,7 +17,7 @@
   ],
   "dependencies": {
     "is-jpg": "~1.0.0",
-    "jpegtran-bin": "~3.0.0",
+    "jpegtran-bin-gfw": "~0.0.1",
     "miaow-util": "~0.6.1"
   },
   "devDependencies": {
