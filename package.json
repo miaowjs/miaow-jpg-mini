@@ -17,7 +17,6 @@
   ],
   "dependencies": {
     "is-jpg": "~1.0.0",
-    "jpegtran-bin-gfw": "~0.0.1",
     "miaow-util": "~0.6.1"
   },
   "devDependencies": {

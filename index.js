@@ -1,6 +1,5 @@
 // 参考 https://github.com/imagemin/imagemin-jpegtran/blob/master/index.js
 var isJpg = require('is-jpg');
-var jpegtran = require('jpegtran-bin-gfw');
 var mutil = require('miaow-util');
 var spawn = require('child_process').spawn;
 
@@ -33,7 +32,7 @@ var minify = mutil.plugin(pkg.name, pkg.version, function (option, cb) {
     args.push('-arithmetic');
   }
 
-  var cp = spawn(jpegtran, args);
+  var cp = spawn('jpegtran', args);
 
   cp.stderr.setEncoding('utf8');
   cp.stderr.on('data', function (data) {
