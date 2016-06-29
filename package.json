@@ -16,7 +16,7 @@
     "jpg"
   ],
   "dependencies": {
-    "is-jpg": "~1.0.0"
+    "is-jpg": "1.0.0"
   },
   "devDependencies": {
     "miaow": "^5.0.0",
